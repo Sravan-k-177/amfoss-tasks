@@ -1,5 +1,7 @@
 #Grid-Lock
 
+#Grid-Lock
+
 lines = [input() for i in range(10)]
 
 words = [item.strip() for item in input().split(";")]
