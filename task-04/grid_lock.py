@@ -65,7 +65,7 @@ for i in v_spaces_sizes:
     if i in v_word_lengths:
         word_index = v_word_lengths.index(i)
         line_index = v_spaces_sizes.index(i)
-        transposed_lines[line_index] = (v_starting_points[line_index])"+" + words[word_index] + (10-word_lengths[word_index] - v_starting_points[line_index])"+"
+        transposed_lines[line_index] = (v_starting_points[line_index])*"+" + words[word_index] + (10-word_lengths[word_index] - v_starting_points[line_index])*"+"
 
 grid2 = [list(line) for line in transposed_lines]
 reverted_grid = list(zip(*grid2))
