@@ -1,0 +1,94 @@
+body {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    background-color: #283149;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    text-shadow: 3px 0 #DA0463;
+    font-family: "Press Start 2P", sans-serif;
+  
+  }
+  
+  .w {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .a {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .s {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .d {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .j {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .k {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .l {
+    box-shadow: 10px 5px 5px red;
+    font-family: "Press Start 2P", sans-serif;
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 10px 5px 5px red;;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  body {
+    background-color: rgb(42, 42, 80);
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+  }
+  
