@@ -40,7 +40,7 @@ for i in spaces_sizes:
     if i in word_lengths:
         word_index = word_lengths.index(i)
         line_index = spaces_sizes.index(i)
-        lines[line_index] = (starting_points[line_index])"+" + words[word_index] + (10-word_lengths[word_index] - starting_points[line_index])"+"
+        lines[line_index] = (starting_points[line_index])*"+" + words[word_index] + (10-word_lengths[word_index] - starting_points[line_index])*"+"
         words.pop(word_index)
         word_lengths.pop(word_index)
 #print(lines)
