@@ -14,3 +14,7 @@ for i in count_kosam:
     if count_kosam[i] == 1:
         print(i)
         break
+
+#this works by creating a dictionary of all the room numbers and 
+#the value is the number of times the roomm number has occured
+#and then the key for which the value is 1 is printed
