@@ -32,3 +32,9 @@ req_elements = sorted(req_elements)
 
 result = " ".join(map(str, req_elements))
 print(result)
+
+
+#for this question i though i could just print the elements which are in one list and not the other
+#then i realised that there are duplicates too in this
+#so i opted for dictionaries, and checked for the required elemens
+#the sorted them and printed
