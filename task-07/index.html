@@ -1,39 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Drum Kit</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <script src="index.js"></script>
-  <h1 id="title">Drum 🥁 Kit</h1>
-  <div class="set">
+    <h1 id="title">Weather⛅</h1>
 
-    <button class="w drum" onclick="playw()">w</button>
-    <button class="a drum" onclick="playa()">a</button>
-    <button class="s drum" onclick="plays()">s</button>
-    <button class="d drum" onclick="playd()">d</button>
-    <button class="j drum" onclick="playj()">j</button>
-    <button class="k drum" onclick="playk()">k</button>
-    <button class="l drum" onclick="playl()">l</button>
-    
+    <div class="container">
+        <div class="searchcontainer">
+            <input type="text" placeholder="Enter Location">
+            <button class="searchbutton">🔍</button>
+        </div>
 
-    <audio id="crash" src="sounds/crash.mp3"></audio>
-    <audio id="kick-bass" src="sounds/kick-bass.mp3"></audio>
-    <audio id="snare" src="sounds/snare.mp3"></audio>
-    <audio id="tom-1" src="sounds/tom-1.mp3"></audio>
-    <audio id="tom-2" src="sounds/tom-2.mp3"></audio>
-    <audio id="tom-3" src="sounds/tom-3.mp3"></audio>
-    <audio id="tom-4" src="sounds/tom-4.mp3"></audio>
+        <div class="weathercontainer">
+                <p class="date"><span class="today"></span></p>
+                <img src="cloud.png" alt="">
+                <p class="temp">0<span>°C</span></p>
+                <p class="content">Clouds</p>
+    </div>
 
-
-  </div>
-  
+    <script src="index.js"></script>
 </body>
-
 </html>
