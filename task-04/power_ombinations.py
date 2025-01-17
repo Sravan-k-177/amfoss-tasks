@@ -22,3 +22,11 @@ combination_count = sum_combination(sqaures, req_number, 0, [], 0)
 
 print(combination_count)
 #print(sqaures)
+
+
+#for this question i used a similar logic as two sum question in leet code
+#i used a recursion funciton so that it checks for all the permutations 
+#first the powers of natural numbers are produces from 1 till the number below which exceeds the requrired sum
+#i used +2 because due to approximations when it it typecasted as int, i sometimes returns a number lower than expected, so i used +2
+#it now checks for all the permutations which could work and keeps a track of them
+#finally returns the count
