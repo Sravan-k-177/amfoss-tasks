@@ -5,7 +5,7 @@ from PySide6.QtCore import  QRect, Qt, QDir
 import requests 
 from PIL import Image 
 import os
-from new_window import AnotherWindow
+from new_window import NewWindow
 
 class SearchWindow(QWidget):
     """
@@ -56,7 +56,13 @@ class SearchWindow(QWidget):
                 border-radius: 10px;
             }
             QMessageBox QLabel {
-            color: black;
+                color: white;
+                border: 10px solid #BA263E;
+                background-color: dark-grey;
+                width:200px;
+                height: 200px;
+                border-radius: 10px;    
+            
             }
             QMainWindow {
                 background-color: black;
@@ -67,6 +73,7 @@ class SearchWindow(QWidget):
             QLabel {
                 font-size: 32px;
                 color:white;
+                font: bold;
             }
             QPushButton:hover {
                 background-color: #BA263E;
@@ -131,6 +138,7 @@ class SearchWindow(QWidget):
             #return required_pokemon_info, image_url, display_image, pokemon_name
         else:
             print(f'{response.status_code} error')
+            self.label2.setText("No Pokemon found with the given name.")
             
 
     # 2 #
@@ -158,7 +166,7 @@ class SearchWindow(QWidget):
 
             dlg = QMessageBox(self)
             dlg.setWindowTitle("pokemon")
-            dlg.setText("captured!")
+            dlg.setText("Captured!")
             capture_button = dlg.exec()
 
             if capture_button == QMessageBox.Ok:
@@ -166,14 +174,15 @@ class SearchWindow(QWidget):
 
         else:
             print(response.status_code)
+        
 
 
 
     # 3 #
     # Display all the Pokémon captured with their respective names using a new window.
-    def open_search_window(self, checked):
+    def open_search_window(self):
         if self.w is None:
-            self.w = AnotherWindow()
+            self.w = NewWindow()
         self.w.show()
 
 if __name__ == "__main__":
