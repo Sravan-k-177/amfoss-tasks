@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QDialog, QApplication
+=from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QDialog, QApplication
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 import requests
@@ -25,10 +25,27 @@ class NewWindow(QWidget):
 
         self.setStyleSheet("""
             QLabel{
-                           color:black;
+                           color:white;
 
                            font: 18px bold;}
+            QPushButton:hover {
+                background-color: #BA263E;
+                color: dark-grey;
+            }
+            QPushButton {
+                background-color: dark-grey;
+                color: white;
+                border: 1px solid #BA263E;
+                font: bold 16px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            NewWindow {
+                background-color: black;
+            }                           
         """) 
+
+
 
         folder_dir = "/home/sravan-kota/Poke-Search/src/pokemon_photos"
         
@@ -47,13 +64,13 @@ class NewWindow(QWidget):
 
 
 
-        next_button = QPushButton("next", self)
-        next_button.setGeometry(50, 300, 160, 43)
+        next_button = QPushButton("next>", self)
+        next_button.setGeometry(600, 400, 160, 33)
         next_button.clicked.connect(self.next_button) #connecting button to a function
         
         
-        previous_button = QPushButton("previous", self)
-        previous_button.setGeometry(50, 350, 160, 43)
+        previous_button = QPushButton("<previous", self)
+        previous_button.setGeometry(50, 400, 160, 33)
         previous_button.clicked.connect(self.previous_button)
 
     def previous_button(self):
@@ -73,7 +90,7 @@ class NewWindow(QWidget):
     def show_pokemon(self):
         pixmap = QPixmap(self.image_paths[self.image_index])
         self.label2.setPixmap(pixmap)
-        self.label1.setText(self.pokemon_names[self.image_index])
+        self.label1.setText(str.capitalize(self.pokemon_names[self.image_index]))
 
 
 
