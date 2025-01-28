@@ -2,6 +2,7 @@ AMFOSS-Tasks
 
 | Task Number | Description | Status |
 |-------------|-------------|--------|
+| Task-00 | Install Linux | Completed |
 | [Task-01](https://github.com/Sravan-k-177/amfoss-tasks/task-01) | The Command Line Cup | Completed |
 |[Task-02](https://github.com/Sravan-k-177/amfoss-tasks/tree/main/task-02) | Pixelated Problem Solver | Completed |
 |[task-03](https://github.com/Sravan-k-177/amfoss-tasks/tree/main/task-03) | Beat The Buttons | Completed |
