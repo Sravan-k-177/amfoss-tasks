@@ -1,5 +1,23 @@
 AMFOSS-Tasks
 
+Introduction:
+Myself, Kota Sravan, Studying AIDS, I know beginner-level programing and my preffered language is python.
+
+Why should we choose you?
+I believe in work under pressure and strict deadlines better than my peers.
+I am eager to get tto know new things and technologies, i believe i will turn out to be a valuable asset to the club.
+
+How do you intend to contribute back to the club?
+I will actively participate in discussions, activities, and events hosted by the club.
+I am willing to put in the hard work and dedicate the hours.
+
+What are your fields of interest?
+I like to grasp and hone new technical skills, as i am curious about the world around me, this goes beyond the technical aspects, i like to watch documentaries, listen podcasts and read journal blogs.
+I like to shoot videos (basically vlogs but just for me and my peers to watch, supposed to be stored as memories).
+
+
+
+
 | Task Number | Description | Status |
 |-------------|-------------|--------|
 | Task-00 | Install Linux | Completed |
