@@ -1,16 +1,5 @@
-# amfoss-tasks
+AMFOSS-Tasks
 
-'''
-TASK STATUS:
-
-Task-00    -    Completed|||
-Task-01    -    Completed|||
-Task-02    -    Completed|||
-Task-03    -    Completed|||
-Task-04    -    Completed|||
-Task-05    -    Completed|||
-Task-06    -    Not attempted(only installed)|||
-Task-07    -    Completed|||
-Task-08    -    Not attempted|||
-Task-09    -    Not attempted|||
-'''
+| Task Number | Description | Status |
+|-------------|-------------|--------|
+| [Task-01](https://github.com/Sravan-k-177/amfoss-tasks/task-01) | The Command Line Cup | Completed |
